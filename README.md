@@ -1,4 +1,3 @@
-homebrew-formulae
-=================
+My Homebrew formulae tap. Add with the following command:
 
-Homebrew formulae.
+`brew tap timsutton/formulae`
