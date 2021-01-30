@@ -1,10 +1,8 @@
 class Pngout < Formula
-  # In my tap because of:
-  # https://github.com/Homebrew/homebrew-binary/issues/286
-  desc "Binary OS X port of Ken Silverman's PNGOUT by Jonathon Fowler."
-  homepage "http://www.jonof.id.au/kenutils"
-  url "http://static.jonof.id.au/dl/kenutils/pngout-20150920-darwin.tar.gz"
-  sha256 "f3fdd1e2c3f1f1fa886b3b302d64e5e9285cf917ddd43dfd75fb3ff156b66442"
+  desc "Binary OS X port of Ken Silverman's PNGOUT by Jonathon Fowler"
+  homepage "https://www.jonof.id.au/kenutils.html"
+  url "https://www.jonof.id.au/files/kenutils/pngout-20200115-macos.zip"
+  sha256 "3272fa947eeafc1ac0086e1f14935f9efa21d090a555e6892255fe5c88f6686e"
 
   bottle :unneeded
 
