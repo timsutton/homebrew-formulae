@@ -1,8 +1,8 @@
 class BrewPkg < Formula
-  desc "Homebrew command for building OS X packages from installed formulae."
+  desc "Homebrew command for building OS X packages from installed formulae"
   homepage "https://github.com/timsutton/brew-pkg"
-  url "https://github.com/timsutton/brew-pkg.git", :tag => "v0.1.6",
-                                                   :revision => "ac9e3885c01dca0616fe3cec1530fc153da3271b"
+  url "https://github.com/timsutton/brew-pkg.git", :tag => "v0.1.7",
+                                                   :revision => "157dbe8b4696db890517ec3b6bf0c9aa02aedd82"
 
   # This is an .rb that must be executable in order for Homebrew to
   # find it with the 'which' method, so we skip_clean
