@@ -9,8 +9,8 @@ class Speedwagon < Formula
   head "https://github.com/timsutton/speedwagon.git", branch: "main"
 
   stable do
-    url "https://github.com/timsutton/speedwagon/releases/download/v0.2.0/speedwagon_0.2.0_darwin_all.tar.gz"
-    sha256 "eeea97d399edc1b3983adab16a7ead1c3dd3fdb99018699f92de4993337b5834"
+    url "https://github.com/timsutton/speedwagon/releases/download/v0.2.0/speedwagon_0.2.0_darwin_all.zip"
+    sha256 "60b2450a4067d6d33fa1821dd26f98a2ab63612d379a23667f1387dbc472c026"
   end
 
   depends_on "go" => :build
