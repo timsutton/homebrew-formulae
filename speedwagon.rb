@@ -21,10 +21,12 @@ class Speedwagon < Formula
     else
       bin.install "speedwagon"
     end
+    generate_completions_from_executable(bin/"speedwagon", "completion")
   end
 
   test do
-    out = `#{bin}/speedwagon list`
-    out.include?("Simulator")
+    shell_output("#{bin}/speedwagon list").include?("Simulator")
+    assert_match version.to_s,
+                 shell_output("#{bin}/speedwagon version")
   end
 end
