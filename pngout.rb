@@ -9,6 +9,6 @@ class Pngout < Formula
   end
 
   test do
-    system "#{bin}/pngout", "-force", test_fixtures("test.png"), "out.png"
+    system bin/"pngout", "-force", test_fixtures("test.png"), "out.png"
   end
 end
