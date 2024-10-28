@@ -4,7 +4,7 @@ class FastFileCount < Formula
   version "82079c0a6ab0d132c81c611cd2bf61e5a8d04028"
   sha256 "25003cd5b6cf0e475cad5115c94dce3339bf69760af29ba357f36de5af5b5b72"
   license "Apache-2.0"
-  head "https://github.com/ChristopherSchultz/fast-file-count.git"
+  head "https://github.com/ChristopherSchultz/fast-file-count.git", "main"
 
   def install
     Dir.chdir buildpath do
