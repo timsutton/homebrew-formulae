@@ -4,7 +4,7 @@ cask "xaea" do
 
   url "https://github.com/timsutton/xaea/releases/download/v#{version}/xaea_#{version}_darwin_universal.tar.gz"
   name "xaea"
-  desc "Fast extractor for Apple Encrypted Archives (Xcode edition)"
+  desc "Extract Xcode AEA archives fast"
   homepage "https://github.com/timsutton/xaea"
 
   livecheck do
