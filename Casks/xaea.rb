@@ -1,6 +1,6 @@
 cask "xaea" do
-  version "0.1.3"
-  sha256 "046236481c44107b8f02719f6b3ace08c230e9dad7ed1ee9ec343f0543121495"
+  version "0.2.0"
+  sha256 "dceb8fb8d31e868564572ae4eaf32a33bacf487bebff16bf5fff3810352ca516"
 
   url "https://github.com/timsutton/xaea/releases/download/v#{version}/xaea_#{version}_darwin_universal.tar.gz"
   name "xaea"
