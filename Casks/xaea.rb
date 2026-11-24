@@ -15,4 +15,5 @@ cask "xaea" do
   depends_on :macos
 
   binary "xaea"
+  generate_completions_from_executable "bin/xaea", "completions"
 end
