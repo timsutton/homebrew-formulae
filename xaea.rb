@@ -4,6 +4,7 @@ class Xaea < Formula
   url "https://github.com/timsutton/xaea/archive/refs/tags/v0.2.0.tar.gz"
   sha256 "d76f7e1c84214bc8b74c0517df36c797dc2b0f5673d8b7deefe00a8af8b77d43"
   license "MIT"
+  head "https://github.com/timsutton/xaea.git", branch: "main"
 
   depends_on "rust" => :build
 
@@ -42,7 +43,7 @@ class Xaea < Formula
     EOS
 
     system bin/"xaea", "inspect", "--verify", testpath/"test.aea"
-    system bin/"xaea", "extract", testpath/"test.aea", "--out", testpath/"out"
+    system bin/"xaea", "extract", testpath/"test.aea", testpath/"out"
     assert_equal "hello xaea\n", (testpath/"out/T/hello.txt").read
   end
 end
