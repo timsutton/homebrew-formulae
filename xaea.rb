@@ -16,6 +16,8 @@ class Xaea < Formula
 
   def install
     system "cargo", "install", *std_cargo_args
+
+    generate_completions_from_executable(bin/"xaea", "completions")
   end
 
   test do
