@@ -1,8 +1,8 @@
 class Xaea < Formula
   desc "Extract Xcode AEA archives fast"
   homepage "https://github.com/timsutton/xaea"
-  url "https://github.com/timsutton/xaea/archive/refs/tags/v0.2.0.tar.gz"
-  sha256 "d76f7e1c84214bc8b74c0517df36c797dc2b0f5673d8b7deefe00a8af8b77d43"
+  url "https://github.com/timsutton/xaea/archive/refs/tags/v0.2.1.tar.gz"
+  sha256 "8f7d5cce24a3e8d1a5b762163e4f0036ba1d6f9329ed60d26c5402c0b2c98be9"
   license "MIT"
   head "https://github.com/timsutton/xaea.git", branch: "main"
 
